@@ -6,6 +6,9 @@
     "start": "node src/main.js",
     "start:dev": "nodemon src/main.js"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "@nestjs/common": "^11.1.6",
     "@nestjs/core": "^11.1.6",

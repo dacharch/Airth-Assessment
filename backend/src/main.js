@@ -2,7 +2,7 @@ require('reflect-metadata');
 const { NestFactory } = require('@nestjs/core');
 const { AppModule } = require('./app.module');
 const fs = require('fs');
-const path = require('path');
+const path = require('path') ;
 
 async function bootstrap() {
   fs.mkdirSync(path.join(__dirname, '../data'), { recursive: true });

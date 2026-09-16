@@ -6,15 +6,13 @@
     "start": "node src/main.js",
     "start:dev": "nodemon src/main.js"
   },
-  "engines": {
-    "node": "20.x"
-  },
   "dependencies": {
+    "@libsql/client": "^0.15.15",
     "@nestjs/common": "^11.1.6",
     "@nestjs/core": "^11.1.6",
     "@nestjs/platform-express": "^11.1.6",
-    "reflect-metadata": "^0.2.2",
-    "better-sqlite3": "^12.2.0"
+    "dotenv": "^17.2.2",
+    "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
     "nodemon": "^3.1.10"

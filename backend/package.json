@@ -1,0 +1,19 @@
+{
+  "name": "job-queue-api",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/main.js",
+    "start:dev": "nodemon src/main.js"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.6",
+    "@nestjs/core": "^11.1.6",
+    "@nestjs/platform-express": "^11.1.6",
+    "reflect-metadata": "^0.2.2",
+    "better-sqlite3": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
